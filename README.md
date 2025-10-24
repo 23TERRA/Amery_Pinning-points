@@ -36,16 +36,17 @@ Purpose: Simulation outputs for all runs (controls, scenarios, APPs, single pins
 
 # How to do the Experiments & Pinning Perturbations？
 What’s included：
+
 1.Climate experiments (12 total):
-10 scenarios (SSP5-8.5/RCP8.5 members) with time-evolving SMB and basin-mean T–S;
+10 scenarios (SSP5-8.5/RCP8.5 members) with time-evolving SMB and basin-mean T–S.
 
 2.Two controls with identical SMB:
 Ctrl-Static (fixed-2020 T–S to PICO),
 Ctrl-OceanAvg (time-evolving ensemble-mean T–S to PICO).
 
 3.Geometry experiments (22 total):
-A.APPs (All Pins): basin-wide 500 m bed lowering strictly within all pinning polygons from Matsuoka et al. (2015).
-B.Single-pin tests (10 largest features): same 500 m lowering applied individually.
+APPs (All Pins): basin-wide 500 m bed lowering strictly within all pinning polygons from Matsuoka et al. (2015).
+Single-pin tests (10 largest features): same 500 m lowering applied individually.
 
 Note：Pin polygons originate from Matsuoka et al. (2015); using BedMachine v3 (2020) we found Podlednyj Holm ungrounded and Svarthausen Nunatak outside the Lambert–Amery drainage, yielding a final set of ten single-pin sites.
 The 500 m perturbations modify only bed elevation inside each pin polygon; all other geometry and parameters are unchanged.
@@ -53,8 +54,11 @@ The 500 m perturbations modify only bed elevation inside each pin polygon; all o
 
 # Data sources (brief)
 1.Drainage basins: Zwally et al. (2012).
+
 2.Bed/geometry: BedMachine Antarctica v3 (Morlighem et al., 2020).
+
 3.Pinning polygons: Matsuoka et al. (2015).
+
 4.Forcings: ISMIP6 SMB anomalies and basin-mean T–S (Nowicki et al., 2020; Jourdain et al., 2020).
 
 
