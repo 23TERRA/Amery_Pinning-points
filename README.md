@@ -3,7 +3,7 @@
 These scripts reproduce the simulations and figures for the Lambert–Amery (AmIS) study that analyzes how surface mass balance (SMB), ocean-forced basal melt, and pinning-point geometry jointly set 21st-century sea-level contribution. The repository contains:
 model definitions and parameters for the Úa–PICO coupling,
 plotting utilities to regenerate paper figures, and
-outputs for 12 climate experiments (10 SSP5-8.5/RCP8.5 scenarios + 2 controls) and 24 geometry experiments (12 APPs “all-pins” + 12 single-pin tests).
+outputs for 12 climate experiments (10 SSP5-8.5/RCP8.5 scenarios + 2 controls) and 22 geometry experiments (12 APPs “all-pins” + 10 single-pin tests).
 
 # Coupled Model Parameters (Úa & PICO) File
 File Location: Century-scale stability with pinning-point sensitivity in the Lambert–Amery system/DefineUa_PICO;
@@ -40,7 +40,7 @@ Climate experiments (12 total):
 Ctrl-Static (fixed-2020 T–S to PICO),
 Ctrl-OceanAvg (time-evolving ensemble-mean T–S to PICO).
 
-Geometry experiments (24 total):
+Geometry experiments (22 total):
 APPs (All Pins): basin-wide 500 m bed lowering strictly within all pinning polygons from Matsuoka et al. (2015).
 Single-pin tests (10 largest features): same 500 m lowering applied individually.
 Pin polygons originate from Matsuoka et al. (2015); using BedMachine v3 (2020) we found Podlednyj Holm ungrounded and Svarthausen Nunatak outside the Lambert–Amery drainage, yielding a final set of ten single-pin sites.
