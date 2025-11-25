@@ -1,6 +1,7 @@
 # Century-scale stability with pinning-point sensitivity in the Lambert–Amery system (Úa–PICO workflows)
 # What's this?
 [![DOI](https://zenodo.org/badge/1082543431.svg)](https://doi.org/10.5281/zenodo.17705566)
+
 These scripts reproduce the simulations and figures for the Lambert–Amery (AmIS) study that analyzes how surface mass balance (SMB), ocean-forced basal melt, and pinning-point geometry jointly set 21st-century sea-level contribution. 
 
 The repository contains:
